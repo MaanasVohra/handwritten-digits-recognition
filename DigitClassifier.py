@@ -15,7 +15,7 @@ clf = svm.SVC(gamma = 0.001 , C = 100)
 x,y = digits.data[:-1] , digits.target[:-1]
 clf.fit(x,y)
 
-print("The Prediction:", clf.predict(digits.data[m]))
+print("The Prediction is:", clf.predict(digits.data[m]))
 
 plt.imshow(digits.images[m], cmap = plt.cm.gray_r, interpolation = "nearest")
 plt.show()
