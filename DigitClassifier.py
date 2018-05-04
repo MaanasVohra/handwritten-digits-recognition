@@ -20,4 +20,3 @@ print("The Prediction is:", clf.predict(digits.data[m]))
 plt.imshow(digits.images[m], cmap = plt.cm.gray_r, interpolation = "nearest")
 plt.show()
 
-
